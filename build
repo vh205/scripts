@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+g++ -std=c++17 -DLOCAL -O2 -Wall $1.cpp -o $1
