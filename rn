@@ -31,9 +31,9 @@ run_test () {
         fl=0
         echo -e $"\e[1mInput:\e[0m"
         cat in$1.txt
-        echo -e $"\e[1mOutput:\e[0m"
-        cat out$1.txt 
         echo -e $"\e[1mExpected:\e[0m"
+        cat out$1.txt 
+        echo -e $"\e[1mOutput:\e[0m"
         cat ans$1.txt
         echo $""
         echo $""

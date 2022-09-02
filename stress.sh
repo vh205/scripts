@@ -22,7 +22,7 @@ do
         cat inp
         echo -e $"\e[1mSlow Output:\e[0m"
         cat out 
-        echo -e $"\e[1mExpected:\e[0m"
+        echo -e $"\e[1mOutput:\e[0m"
         cat ans 
         echo $""
 		echo -e "${RED}Wrong answer!${NC}"
