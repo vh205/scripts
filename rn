@@ -42,7 +42,7 @@ run_test () {
 }
 
 
-if [ -v "$2" ]
+if [ "$2" ]
 then
 	v=1
 	run_test $2 $1
